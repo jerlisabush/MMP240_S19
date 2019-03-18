@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+/*Navigation Styles*/
+nav{
+	background-color: pink;
+	text-align: center;
+}
+nav ul{
+
+	list-style: none;
+
+
+}
+nav li{
+	display: inline;
+
+
+}
+nav a{
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	color: brown;
+}
+nav a:hover{
+	background-color: skyblue;
+	color: red;
+
+}
