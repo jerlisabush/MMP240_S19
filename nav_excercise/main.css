@@ -6,8 +6,9 @@
 }
 /*Navigation Styles*/
 nav{
-	background-color: pink;
+	background-color: #D183C9;
 	text-align: center;
+	border: solid 1px;
 }
 nav ul{
 
@@ -24,10 +25,27 @@ nav a{
 	display: inline-block;
 	padding: 20px;
 	text-decoration: none;
-	color: brown;
+	color: #4C191B;
+	font-family: 'Yeseva One', cursive;
+	font-size: 20px;
 }
 nav a:hover{
-	background-color: skyblue;
-	color: red;
+	background-color: #8B5FBF;
+	color: black;
 
+}
+
+a{
+	font-family: 'Yeseva One', cursive;
+	color: #6C4244
+
+}
+a: visited{
+	color
+}
+.rightresponsive{ 
+	max-width:70%; 
+	height: auto;
+	float: right;
+	margin:15px 0 15px 15px;
 }
