@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+/*Navigation Styles*/
+nav{
+	background-color: #D183C9;
+	text-align: center;
+	border: solid 1px;
+}
+nav ul{
+
+	list-style: none;
+
+
+}
+nav li{
+	display: inline;
+
+
+}
+nav a{
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	color: #4C191B;
+	font-family: 'Yeseva One', cursive;
+	font-size: 20px;
+}
+nav a:hover{
+	background-color: #8B5FBF;
+	color: black;
+
+}
+
+a{
+	font-family: 'Yeseva One', cursive;
+	color: #6C4244
+
+}
+a: visited{
+	color
+}
+.rightresponsive{ 
+	max-width:70%; 
+	height: auto;
+	float: right;
+	margin:15px 0 15px 15px;
+}
+
+.site{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px auto 1fr 1fr;
+
+}
+.masthead{
+	grid-column: 1/3;
+	grid-row: 1/2;
+}
+.page-title{
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+.sidebar{
+	grid-column: 1/2;
+	grid-row: 2/4;
+}
+.main-content{
+	grid-column: 2/3;
+	grid-row: 3/4;
+}
+.footer-content{
+	grid-column: 1/3;
+	grid-row: 4/5;
+}  
+
