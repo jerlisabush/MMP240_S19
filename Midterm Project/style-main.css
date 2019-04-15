@@ -17,7 +17,7 @@ Accessibility
 	border-radius: 3px;
 	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
 	clip: auto !important;
-	color: #21759b;
+	color: #1E2D24;
 	display: block;
 	font-size: 14px;
 	font-weight: bold;
@@ -44,7 +44,7 @@ button,
 input,
 select,
 textarea {
-	font-family: 'Source Sans Pro', 'Helvetica', 'Arial', sans-serif;
+	font-family: Bangers;
 	font-size: 18px;
 	line-height: 1.5;
 }
@@ -182,15 +182,15 @@ General styling
 }
 
 .masthead {
-    background-color: #b46ae3;
+    background-color: #FFD275;
 }
 
 .page-title {
-    background-color: #51a7fa;
+    background-color: #DB9D47;
 }
 
 .main-content {
-    background-color: #70bf40;
+    background-color: #DB9D47;
 }
 
 .sidebar {
@@ -198,5 +198,5 @@ General styling
 }
 
 .footer-content {
-    background-color: #0265c0;
+    background-color: #DB9D47;
 }
