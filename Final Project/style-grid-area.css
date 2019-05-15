@@ -6,8 +6,8 @@
     	"title"
     	"masthead"
     	"main"
-    	"sidebar"
-    	"footer";
+    	"sidebar";
+    	/*"footer";*/
 }
 .masthead{
 	grid-area: masthead;
@@ -33,8 +33,8 @@
 		grid-template-columns: 2fr 1fr 1fr;
 		grid-template-areas: 
 			"title title title"
-			"main masthead masthead masthead"
-			"main sidebar sidebar sidebar"
+			"main masthead masthead"
+			"main sidebar sidebar"
 			;
 	}
 
@@ -48,3 +48,5 @@
 			"title title title title"
 			"main masthead masthead masthead"
 			"main sidebar sidebar sidebar";
+		}
+	}
