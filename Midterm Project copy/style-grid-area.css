@@ -1,0 +1,51 @@
+.site{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: 
+    	"title"
+    	"masthead"
+    	"main"
+    	"sidebar"
+    	"footer";
+}
+.masthead{
+	grid-area: masthead;
+
+}
+.page-title{
+	grid-area: title;
+
+}
+.main-content{
+	grid-area: main;
+}
+.sidebar{
+	grid-area: sidebar;
+}
+.footer-content{
+	grid-area: footer;
+
+}
+@media only screen and (min-width: 600px){
+	.site{
+
+		grid-template-columns: 2fr 1fr 1fr;
+		grid-template-areas: 
+			"title title title"
+			"main masthead masthead"
+			"main sidebar sidebar"
+			;
+	}
+
+
+}
+@media only screen and (min-width: 1200px){
+	.site{
+
+		grid-template-columns: 2fr 1fr 1fr 1fr;
+		grid-template-areas: 
+			"title title title title"
+			"main masthead masthead masthead"
+			"main sidebar sidebar sidebar";
+			
