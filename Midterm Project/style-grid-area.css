@@ -34,8 +34,7 @@
 		grid-template-areas: 
 			"title title title"
 			"main masthead masthead"
-			"main sidebar sidebar"
-			;
+			"main sidebar sidebar";
 	}
 
 
