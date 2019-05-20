@@ -6,10 +6,9 @@
     	"title"
     	"masthead"
     	"main"
-    	"sidebar";
-    	/*"footer";*/
+    	"sidebar"
+    	"footer";
 }
-
 .masthead{
 	grid-area: masthead;
 
@@ -49,5 +48,4 @@
 			"title title title title"
 			"main masthead masthead masthead"
 			"main sidebar sidebar sidebar";
-		}
-	}
+			
